@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/**Estilos para Navbar*/
+
+.navbar-fondo{
+  background-color: purple;
+  
+}
+
+.navbar-texto{
+  color: white;
+}
+
+
+/* Estilos para Footer*/
+.footer-fondo {
+  background-color: purple;
+}
+
+.footer-derechos{
+  background-color: black;
+}
+
+.footer-derechos-text{
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Metodos para centrar*/
+.align-center {
+  text-align: center;
+}
