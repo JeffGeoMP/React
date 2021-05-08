@@ -35,7 +35,7 @@ const NewBook = ({book, setBook}) =>{
             })
         }
         //Consulta
-        fetch('http://localhost:3030/book/new', requestInit)
+        fetch('http://192.168.28.35:3030/book/new', requestInit)
         .then(res => res.json())
         .then(res => console.log(res))
 
