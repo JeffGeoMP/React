@@ -23,19 +23,19 @@ function App() {
 
 	useEffect(() => {
 		const getBooks = () => {
-			fetch("http://localhost:3030/book/all")
+			fetch("http://192.168.1.104:3030/book/all")
 				.then(res => res.json())
 				.then(res => setBooks(res))
 		}
 
     const getVentas = () =>{
-      fetch("http://localhost:3030/book/sales")
+      fetch("http://192.168.1.104:3030/book/sales")
         .then(res => res.json())
         .then(res => setVentas(res.resp))
     }
 
     const getVendedores =() =>{
-      fetch("http://localhost:3030/seller/all")
+      fetch("http://192.168.1.104:3030/seller/all")
         .then(res => res.json())
         .then(res => setVendedores(res.resp))
     }

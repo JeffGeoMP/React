@@ -23,7 +23,7 @@ const Books = ({ListBooks}) => {
         }
         
          //Consulta
-         fetch('http://localhost:3030/seller/sale', requestInit)
+         fetch('http://192.168.1.104:3030/seller/sale', requestInit)
          .then(res => res.json())
          .then(res => console.log(res))
     }
